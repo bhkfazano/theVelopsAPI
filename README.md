@@ -29,5 +29,9 @@ A user is a JSON document as bellow
 ## How to Run
 
 1. Download the projct
-2. Go to ~/server and run on the terminal:
-    $ node server.js
+2. On the terminal:
+```
+    $ cd ~/server
+    $ node server.js
+```
+
