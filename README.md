@@ -30,7 +30,7 @@ A user is a JSON document as bellow
 
 1. Download the projct
 2. Start MongoDB
-```
+```java
     $ sudo service mongod start // starts the service
     $ sudo service mongod status // check the status
 ```
