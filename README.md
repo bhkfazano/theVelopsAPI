@@ -55,5 +55,5 @@ A user is a JSON document as bellow
     $ cd ~/server
     $ npm test
 ```
-2. The tests simulate all situations that may occur,evaluating HTTP status responses
+2. The tests simulate all situations that may occur, evaluating HTTP status responses
 
