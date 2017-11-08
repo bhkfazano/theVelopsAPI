@@ -51,7 +51,7 @@ A user is a JSON document as bellow
 ## How to Run the Tests with Jest
 
 1. On the terminal:
-``java
+```java
     $ cd ~/server
     $ npm test
 ```
