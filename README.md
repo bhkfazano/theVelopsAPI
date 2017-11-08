@@ -29,14 +29,31 @@ A user is a JSON document as bellow
 ## How to Run
 
 1. Download the projct
-2. Start MongoDB
+2. Start MongoDB:
 ```java
     $ sudo service mongod start // starts the service
     $ sudo service mongod status // check the status
 ```
 2. On the terminal:
-```
+```java
     $ cd ~/server
-    $ node server.js
+    $ node server.js // by starting the server, it automatically fill the database with 50 random users from FakerJS
 ```
+3. The server is now running at localhost:8080
+4. You can manually test all the routes using Postman or similar to manage the entries on the database
+5. If you do so, the API will require basic authentication, wich is:
+```java
+    username: admin
+    password: theVelops
+```
+6. It's impossible to register more than one user with the same email adress
+
+## How to Run the Tests with Jest
+
+1. On the terminal:
+``java
+    $ cd ~/server
+    $ npm test
+```
+2. The tests simulate all situations that may occur,evaluating HTTP status responses
 
