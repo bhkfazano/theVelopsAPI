@@ -14,7 +14,7 @@ This API allows the management and control of a database containing user registr
 
 ## User Model
 
-A user is an JSON document as bellow
+A user is a JSON document as bellow
 
 ```javascript
 {
@@ -25,3 +25,7 @@ A user is an JSON document as bellow
   personal_phone: "998877665"
 }
 ```
+
+## How to Run
+
+1. Download the projct
