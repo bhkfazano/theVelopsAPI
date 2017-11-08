@@ -29,6 +29,11 @@ A user is a JSON document as bellow
 ## How to Run
 
 1. Download the projct
+2. Start MongoDB
+```
+    $ sudo service mongod start // starts the service
+    $ sudo service mongod status // check the status
+```
 2. On the terminal:
 ```
     $ cd ~/server
