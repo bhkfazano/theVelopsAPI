@@ -2,3 +2,12 @@
 
 
 This API allows the management and control of a database containing user registries. It allows you to insert, query, remove and update records kept in JSON format. The entire application is built in Node.js and the data persisted with MongoDB.
+
+
+## Routes
+
+- **GET /users -** Returns a JSON array containing all registered users
+- **GET /users/:id -** Returns a specific user from the database, identified by its own id
+- **POST /users -** Inserts into the database a new register containing necessarily: first name, last name, email and phone
+- **PUT /users/:id -** Updates a specific user identified by its own id
+- **DELETE /users/:id -** Remove a specific user from the database
