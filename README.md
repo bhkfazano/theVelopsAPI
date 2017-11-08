@@ -28,7 +28,7 @@ A user is a JSON document as bellow
 
 ## How to Run
 
-1. Download the projct
+1. Download and extract the projct
 2. Start MongoDB:
 ```java
     $ sudo service mongod start // starts the service
