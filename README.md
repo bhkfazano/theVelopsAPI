@@ -30,19 +30,19 @@ A user is a JSON document as bellow
 
 1. Download and extract the projct
 2. Start MongoDB:
-```java
+```javascript
     $ sudo service mongod start // starts the service
     $ sudo service mongod status // check the status
 ```
 2. On the terminal:
-```java
+```javascript
     $ cd ~/server
-    $ node server.js // by starting the server, it automatically fill the database with 50 random users from FakerJS
+    $ node server.js // by starting the server, it automatically fills the database with 50 random users from FakerJS
 ```
 3. The server is now running at localhost:8080
 4. You can manually test all the routes using Postman or similar to manage the entries on the database
 5. If you do so, the API will require basic authentication, wich is:
-```java
+```javascript
     username: admin
     password: theVelops
 ```
@@ -51,7 +51,7 @@ A user is a JSON document as bellow
 ## How to Run the Tests with Jest
 
 1. On the terminal:
-```java
+```javascript
     $ cd ~/server
     $ npm test
 ```
