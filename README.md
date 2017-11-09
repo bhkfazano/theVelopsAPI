@@ -46,7 +46,12 @@ A user is a JSON document as bellow
     username: admin
     password: theVelops
 ```
-6. It's impossible to register more than one user with the same email adress
+6. The credentials can be changed on server.js:
+```javascript
+   22   }, function(username, password, callback){
+	 23   callback(username == 'admin' && password == 'theVelops');
+```
+7. It's impossible to register more than one user with the same email adress
 
 ## How to Run the Tests with Jest
 
